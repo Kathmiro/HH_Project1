@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 ***2. Сбор данных***
 
-# Базовый сбор вакансий
+#### Базовый сбор вакансий
 python scripts/collect_habr.py --pages 50 --query "python"
 
 # Сбор с детальной информацией
@@ -88,18 +88,18 @@ python scripts/collect_habr.py --pages 30 --query "data science" --detailed
 
 ***3. Обработка данных***
 
-# Базовая обработка
+#### Базовая обработка
 python scripts/clean_habr.py
 
-# С выводом EDA-статистики
+#### С выводом EDA-статистики
 python scripts/clean_habr.py --eda
 
 ***4. Запуск дашборда***
 
-# Из корня проекта
+#### Из корня проекта
 streamlit run dashboard/app.py
 
-# Или из директории dashboard
+#### Или из директории dashboard
 cd dashboard
 streamlit run app.py
 
