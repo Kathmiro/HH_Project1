@@ -83,7 +83,7 @@ pip install -r requirements.txt
 #### Базовый сбор вакансий
 python scripts/collect_habr.py --pages 50 --query "python"
 
-# Сбор с детальной информацией
+#### Сбор с детальной информацией
 python scripts/collect_habr.py --pages 30 --query "data science" --detailed
 
 ***3. Обработка данных***
