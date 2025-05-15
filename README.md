@@ -10,8 +10,7 @@
 
 ## Структура репозитория
 
-habr_work/
-
+HH_Project1/  
 ├── README.md                  # Описание проекта  
 ├── requirements.txt           # Зависимости проекта  
 ├── dashboard/                 # Директория с дашбордом  
